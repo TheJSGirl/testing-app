@@ -10,7 +10,7 @@ function App() {
     name: string;
   }
   
-  const [initialData, setData] = useState<Note[]>([
+  const [initialData] = useState<Note[]>([
     {id: 1, name: 'Random String'},
     {id: 2, name: 'Random String'},
     {id: 3, name: 'Random String'},
